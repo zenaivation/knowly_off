@@ -1,0 +1,31 @@
+.page-container {
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero {
+  // background-image: url(./images/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  &__content {
+    
+    text-align: center;
+
+    p {
+      max-width: 60%;
+      margin: 0 auto;
+
+      @include mobile {
+        max-width: 100%;
+      }
+    }
+
+    img {
+      animation: mover 1s infinite  alternate;
+      height: 100px;
+      width: 100px;
+      margin: 20px auto;
+    }
+  }
+
+}

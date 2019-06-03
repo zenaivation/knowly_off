@@ -1,0 +1,38 @@
+.featureCard {
+  background: $color-white;
+  box-shadow: 0 -4px 8px 0 rgba(92,99,110,0.09);
+  display: flex;
+  padding: 40px;
+  margin-top: 20px;
+  transition: 0.25s all;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 -4px 12px 0 rgba(92,99,110,0.09);
+  }
+
+  &__icon {
+    height: 50px;
+    flex: 1;
+  }
+
+  &__content {
+    flex: 4;
+  }
+
+  &__title {
+    color: #5C636E;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  &__desc {
+    opacity: 0.8;
+  }
+
+  &__link {
+    color: #559FED;
+    font-family: FontSemiBold;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,16 @@
+.demo {
+  &__dropFile {
+    width: 600px;
+    margin: 0 auto;
+    height: 250px;
+    background: rgba(249, 249, 249, 0.518);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
+    text-align: center;
+    padding: 20px;
+    border:2px dashed $primary-color;
+
+    @include mobile {
+      width: 100%;
+    }
+  }
+}

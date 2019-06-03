@@ -1,0 +1,23 @@
+.header {
+  @include mobile {
+    flex-direction: column;
+  }
+  &__menu {
+    li {
+      list-style: none;
+      padding-right: 20px;
+
+      .menu-link {
+        color: $color-black;
+      }
+    }
+  }
+
+  &__mobile {
+    display: none;
+    
+    @include mobile {
+      display: block;
+    }
+  }
+}

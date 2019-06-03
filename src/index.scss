@@ -1,9 +1,12 @@
 @import './styles/base/variables';
+@import './styles/base/media';
 @import './styles/base/typography';
+@import './styles/base/keyframes';
 @import './styles/components/header';
 @import './styles/components/hero';
 @import './styles/components/features';
 @import './styles/components/demo';
 @import './styles/components/signup';
 @import './styles/components/buttons';
+@import './styles/components/featureCard';
 @import './styles/page/home';
