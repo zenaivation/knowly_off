@@ -11,8 +11,8 @@ class App extends Component {
       <div className="container-fluid page-container">
         <Header />
         <Hero />
-        {/* <Demo />
-        <Features /> */}
+        {/* <Demo />*/}
+        <Features />
         <Signup />
         <ToastContainer />
       </div>

@@ -11,9 +11,16 @@
     
     text-align: center;
 
+    h1 {
+      font-family: FontBold;
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+
     p {
       max-width: 60%;
       margin: 0 auto;
+      opacity: 1;
 
       @include mobile {
         max-width: 100%;

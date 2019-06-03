@@ -12,7 +12,7 @@ class Hero extends Component {
 
       const files = acceptedFiles.map(file => (
         <div className="text-center mt-3">
-          <p>Thank you for uploading {file.path} to <strong>knowly</strong>, as for now we are working hard to make everything working. You can checkout our sample or sign up for the beta.</p>
+          <p>Thank you for uploading {file.path} to <strong>knowly</strong>, for now we are working hard to make everything running. Please check out our sample or sign up for the beta if you are interested in this functionality.</p>
           <a href={pdf} download className="btn btn--basic">Download example</a>
         </div>
       ));
@@ -22,7 +22,7 @@ class Hero extends Component {
         <div style={{ widht: '100%' }}>
           <div {...getRootProps({ className: 'demo__dropFile d-flex align-items-center justify-content-center' }) }>
             <input {...getInputProps() } />
-            <p>Drag 'n' drop some your csv here, or click to select the csv</p>
+            <p>Drag 'n' drop a CSV here, or click to select a CSV on your local system</p>
           </div>
           {files}
         </div>
@@ -35,7 +35,7 @@ class Hero extends Component {
           <div className="col">
             <div className="hero__content">
               <h1>Know more about your commenters</h1>
-              <p>Get more insigh from your fans that left an comment</p>
+              <p>Get more insights from your audience. Get actionable data from your comments with the power of Machine Learning.</p>
               <img src={heroImg} />
             </div>
           </div>

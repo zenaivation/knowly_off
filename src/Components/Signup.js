@@ -23,8 +23,8 @@ class Signup extends Component {
         this.setState({ message: "Something went wrong" });
         toast.error("Something went wrong try again");
       }
-      this.setState({ message: "Thanks we'll get back to you soon!" });
-      toast.success("Thanks we'll get back to you soon!", {
+      this.setState({ message: "Thanks, we'll get back to you soon!" });
+      toast.success("Thanks, we'll get back to you soon!", {
         position: toast.POSITION.BOTTOM_CENTER
       });
     });
@@ -34,10 +34,10 @@ class Signup extends Component {
   render() {
     return (
       <div className="footer">
-        <p>Subscirbe for beta</p>
+        <p>Subscribe for beta</p>
         <div className="footer__form">
           <input value={this.state.value} onChange={(event) => this.handleChange(event)} type="text" placeholder="johndoe@gmail.com" />
-          <button className="btn btn--outline-white" onClick={this.handleSubmit}>Submit</button>
+          <a href className="btn btn--outline-white" onClick={this.handleSubmit}>Submit</a>
         </div>
       </div>
     )

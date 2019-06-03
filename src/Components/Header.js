@@ -13,7 +13,7 @@ class Header extends Component {
             <a href={pdf} download className="menu-link">See insight example</a>
           </li>
           <li>
-            <a href="#" className="menu-link">Signup for beta</a>
+            <a href="#" className="menu-link">Sign up for beta</a>
           </li>
           {/* <li>
             <a href="#" className="menu-link">Pricing</a>

@@ -16,11 +16,19 @@
 h2 {
   font-size: 40px;
   font-family: FontSemiBold;
+ 
+  @include mobile {
+    font-size: 30px;
+  }
 }
 
 h3 {
   font-size: 24px;
   font-family: FontSemiBold;
+   
+  @include mobile {
+    font-size: 20px;
+  }
 }
 
 h4 {
