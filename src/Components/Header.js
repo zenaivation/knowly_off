@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Logo from '../images/Logo.png';
 import pdf from '../images/insight-sample.pdf';
 class Header extends Component {
@@ -13,7 +14,8 @@ class Header extends Component {
             <a href={pdf} download className="menu-link">See insight example</a>
           </li>
           <li>
-            <a href="#" className="menu-link">Sign up for beta</a>
+            {/* <a href="#" className="menu-link">Sign up for beta</a> */}
+            <AnchorLink className="menu-link" href='#signup'>Sign up for beta</AnchorLink>
           </li>
           {/* <li>
             <a href="#" className="menu-link">Pricing</a>

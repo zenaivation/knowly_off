@@ -33,7 +33,7 @@ class Signup extends Component {
 
   render() {
     return (
-      <div className="footer">
+      <div className="footer" id="signup">
         <p>Subscribe for beta</p>
         <div className="footer__form">
           <input value={this.state.value} onChange={(event) => this.handleChange(event)} type="text" placeholder="johndoe@gmail.com" />
