@@ -35,7 +35,7 @@ class Hero extends Component {
           <div className="col">
             <div className="hero__content">
               <h1>You can't read every comment. But what if you could?</h1>
-              <p>Get valuable insights from your commenting audience. Get actionable data from your comments with the power of Machine Learning. reated for creators.</p>
+              <p>Get valuable insights from your commenting audience. Get actionable data from your comments with the power of Machine Learning. Related for creators.</p>
               <img src={heroImg} />
             </div>
           </div>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { FeatureCard } from './index';
-import Insta from '../images/insta_csv.png';
-import Twitch from '../images/twitch_csv.png';
-import Youtube from '../images/youtube_csv.png';
+import Insta from '../images/insta_csv.svg';
+import Twitch from '../images/twitch_csv.svg';
+import Youtube from '../images/youtube_csv.svg';
 import report from '../images/report.jpg';
 import youtubeReport from '../images/youtube_report.jpg';
 import instaReport from '../images/insta_report.jpg';
