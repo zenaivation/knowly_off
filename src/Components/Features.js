@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 import { FeatureCard } from './index';
-import Insta from '../images/instagram.png';
-import Twitch from '../images/twitch.png';
-import Youtube from '../images/youtube.png';
-import report from '../images/report.png';
+import Insta from '../images/insta_csv.png';
+import Twitch from '../images/twitch_csv.png';
+import Youtube from '../images/youtube_csv.png';
+import report from '../images/report.jpg';
+import youtubeReport from '../images/youtube_report.jpg';
+import instaReport from '../images/insta_report.jpg';
+import twitchReport from '../images/twitch_report.jpg';
+import instaPDF from '../images/insta_pdf.pdf';
+import youtubePDF from '../images/youtube_pdf.pdf';
+import twitchPDF from '../images/twitch_pdf.pdf';
 
 class Features extends Component {
   render() {
@@ -20,7 +26,8 @@ class Features extends Component {
               image={Youtube}
               title="Video comment report"
               desc="Download an example report below"
-              imageReport={report} />
+              imageReport={youtubeReport}
+              link={youtubePDF} />
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-12">
@@ -28,7 +35,8 @@ class Features extends Component {
               image={Insta}
               title="Post comment report"
               desc="Download an example report below"
-              imageReport={report} />
+              imageReport={instaReport}
+              link={instaPDF} />
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-12">
@@ -36,7 +44,8 @@ class Features extends Component {
               image={Twitch}
               title="Stream comment report"
               desc="Download an example report below"
-              imageReport={report} />
+              imageReport={twitchReport}
+              link={twitchPDF} />
           </div>
         </div>
       </div>

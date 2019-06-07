@@ -16,7 +16,7 @@ class FeatureCard extends Component {
             <a href="#"><img src={this.props.imageReport} /></a>
           </div>
           <div className="featureCard__link">
-            <a href="#">GET EXAMPLE</a>
+            <a href={this.props.link} download>GET EXAMPLE</a>
           </div>
         </div>
       </div>
